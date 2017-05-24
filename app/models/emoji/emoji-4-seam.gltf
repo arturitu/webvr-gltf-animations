@@ -1,0 +1,262 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC2",
+      "max": [
+        0.971885,
+        -0.000118
+      ],
+      "min": [
+        0.000118,
+        -0.999882
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC3",
+      "max": [
+        0.9741074,
+        0.9759883,
+        0.9989979
+      ],
+      "min": [
+        -0.9741074,
+        -0.99968195,
+        -0.998419344
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC4",
+      "max": [
+        0.981394231,
+        0.9240673,
+        0.999643743,
+        1.0
+      ],
+      "min": [
+        -0.9788812,
+        -0.9989133,
+        -0.975979149,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC3",
+      "max": [
+        0.81479,
+        0.807838,
+        0.84181
+      ],
+      "min": [
+        -0.81479,
+        -0.822192,
+        -0.841558
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC3",
+      "max": [
+        0.468495965,
+        0.0985626,
+        0.370604277
+      ],
+      "min": [
+        -0.468495965,
+        -0.44303757,
+        -0.292096972
+      ],
+      "name": "Angry"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC3",
+      "max": [
+        0.077588,
+        0.0,
+        0.259907
+      ],
+      "min": [
+        -0.077588,
+        -0.128268,
+        -0.158404022
+      ],
+      "name": "Angry"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 342,
+      "type": "VEC3",
+      "max": [
+        0.778414369,
+        0.29064697,
+        0.4423809
+      ],
+      "min": [
+        -0.636683941,
+        -0.56317544,
+        -0.419093
+      ],
+      "name": "Angry"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1770,
+      "type": "SCALAR",
+      "max": [
+        341
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2736
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2736,
+      "byteLength": 4104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6840,
+      "byteLength": 5472
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12312,
+      "byteLength": 4104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16416,
+      "byteLength": 4104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20520,
+      "byteLength": 4104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24624,
+      "byteLength": 4104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28728,
+      "byteLength": 3540
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "emoji-4-seam.bin",
+      "byteLength": 32268
+    }
+  ],
+  "images": [
+    {
+      "uri": "emoji-4-seam_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 7,
+          "material": 0,
+          "targets": [
+            {
+              "NORMAL": 4,
+              "POSITION": 5,
+              "TANGENT": 6
+            }
+          ]
+        }
+      ],
+      "weights": [
+        0.0
+      ],
+      "name": "Cube"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.81016,
+          0.657354653,
+          0.657354653,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "emoji-4-seam"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "scale": [
+        0.410006881,
+        0.410006881,
+        0.410006881
+      ],
+      "name": "emoji-4-seam"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
