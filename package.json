@@ -14,7 +14,8 @@
     "three": "0.85.2",
     "tween.js": "16.6.0",
     "webvr-polyfill": "0.9.27",
-    "webvr-ui": "0.9.4"
+    "webvr-ui": "0.9.4",
+    "socket.io": "1.2.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "6.24.1",

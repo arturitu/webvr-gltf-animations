@@ -1,0 +1,257 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC2",
+      "max": [
+        0.9556,
+        -0.015673
+      ],
+      "min": [
+        0.098611,
+        -0.977633
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC4",
+      "max": [
+        0.998461664,
+        0.9868084,
+        0.9999983,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9946743,
+        -0.9943747,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC3",
+      "max": [
+        0.073313,
+        -0.000923,
+        0.012411
+      ],
+      "min": [
+        -0.079017,
+        -0.20973,
+        -0.012452
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC3",
+      "max": [
+        2.0,
+        1.95330322,
+        1.98665309
+      ],
+      "min": [
+        -0.8998018,
+        -1.31577229,
+        -1.953315
+      ],
+      "name": "close"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC3",
+      "max": [
+        0.000229001045,
+        0.13888,
+        0.083775
+      ],
+      "min": [
+        0.0,
+        -0.0174969956,
+        -0.00147600006
+      ],
+      "name": "close"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 652,
+      "type": "VEC3",
+      "max": [
+        0.6133088,
+        1.54758668,
+        1.801199
+      ],
+      "min": [
+        -0.5843921,
+        -1.906455,
+        -1.6848017
+      ],
+      "name": "close"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1272,
+      "type": "SCALAR",
+      "max": [
+        651
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5216,
+      "byteLength": 7824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13040,
+      "byteLength": 10432
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23472,
+      "byteLength": 7824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31296,
+      "byteLength": 7824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39120,
+      "byteLength": 7824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46944,
+      "byteLength": 7824
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54768,
+      "byteLength": 2544
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "hand-bevel.bin",
+      "byteLength": 57312
+    }
+  ],
+  "images": [
+    {
+      "uri": "hand-bevel_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 7,
+          "material": 0,
+          "targets": [
+            {
+              "NORMAL": 4,
+              "POSITION": 5,
+              "TANGENT": 6
+            }
+          ]
+        }
+      ],
+      "weights": [
+        0.0
+      ],
+      "name": "Cube"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9405525,
+          0.419347852,
+          0.00450721,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "hand-uv"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "name": "hand-bevel"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
