@@ -1,0 +1,153 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2016,
+      "type": "VEC3",
+      "max": [
+        0.4759953,
+        0.423693985,
+        -0.8165361
+      ],
+      "min": [
+        -0.563464761,
+        -0.452330917,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2016,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2016,
+      "type": "VEC3",
+      "max": [
+        40.0,
+        40.0,
+        0.614803
+      ],
+      "min": [
+        -40.0,
+        -40.0,
+        -2.555537
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 3402,
+      "type": "SCALAR",
+      "max": [
+        2015
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24192,
+      "byteLength": 32256
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 56448,
+      "byteLength": 24192
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80640,
+      "byteLength": 6804
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "ground.bin",
+      "byteLength": 87444
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 0,
+            "TANGENT": 1,
+            "POSITION": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ],
+      "name": "Plane"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.285193563,
+          0.285193563,
+          0.285193563,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "ground"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "translation": [
+        -1.24975109,
+        -2.26204348,
+        2.5917778
+      ],
+      "name": "ground"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
