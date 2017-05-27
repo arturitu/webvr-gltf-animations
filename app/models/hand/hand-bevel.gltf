@@ -3,7 +3,7 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC2",
       "max": [
         0.9556,
@@ -17,7 +17,7 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC3",
       "max": [
         1.0,
@@ -33,7 +33,7 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC4",
       "max": [
         0.998461664,
@@ -51,7 +51,7 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC3",
       "max": [
         0.073313,
@@ -67,7 +67,7 @@
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC3",
       "max": [
         2.0,
@@ -84,7 +84,7 @@
     {
       "bufferView": 5,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC3",
       "max": [
         0.000229001045,
@@ -101,7 +101,7 @@
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 652,
+      "count": 668,
       "type": "VEC3",
       "max": [
         0.6133088,
@@ -117,11 +117,62 @@
     },
     {
       "bufferView": 7,
+      "componentType": 5126,
+      "count": 668,
+      "type": "VEC3",
+      "max": [
+        0.86163944,
+        0.8286728,
+        0.8127564
+      ],
+      "min": [
+        -0.5643479,
+        -1.09066451,
+        -0.4993571
+      ],
+      "name": "grab"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 668,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0303560048,
+        0.0525349975
+      ],
+      "min": [
+        0.0,
+        -0.007077992,
+        -0.0003460003
+      ],
+      "name": "grab"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 668,
+      "type": "VEC3",
+      "max": [
+        0.70974195,
+        0.826390445,
+        0.938131452
+      ],
+      "min": [
+        -0.262610316,
+        -0.736192942,
+        -0.908943653
+      ],
+      "name": "grab"
+    },
+    {
+      "bufferView": 10,
       "componentType": 5123,
       "count": 1272,
       "type": "SCALAR",
       "max": [
-        651
+        667
       ],
       "min": [
         0
@@ -135,48 +186,63 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 5216
+      "byteLength": 5344
     },
     {
       "buffer": 0,
-      "byteOffset": 5216,
-      "byteLength": 7824
+      "byteOffset": 5344,
+      "byteLength": 8016
     },
     {
       "buffer": 0,
-      "byteOffset": 13040,
-      "byteLength": 10432
+      "byteOffset": 13360,
+      "byteLength": 10688
     },
     {
       "buffer": 0,
-      "byteOffset": 23472,
-      "byteLength": 7824
+      "byteOffset": 24048,
+      "byteLength": 8016
     },
     {
       "buffer": 0,
-      "byteOffset": 31296,
-      "byteLength": 7824
+      "byteOffset": 32064,
+      "byteLength": 8016
     },
     {
       "buffer": 0,
-      "byteOffset": 39120,
-      "byteLength": 7824
+      "byteOffset": 40080,
+      "byteLength": 8016
     },
     {
       "buffer": 0,
-      "byteOffset": 46944,
-      "byteLength": 7824
+      "byteOffset": 48096,
+      "byteLength": 8016
     },
     {
       "buffer": 0,
-      "byteOffset": 54768,
+      "byteOffset": 56112,
+      "byteLength": 8016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64128,
+      "byteLength": 8016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 72144,
+      "byteLength": 8016
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 80160,
       "byteLength": 2544
     }
   ],
   "buffers": [
     {
       "uri": "hand-bevel.bin",
-      "byteLength": 57312
+      "byteLength": 82704
     }
   ],
   "images": [
@@ -194,18 +260,24 @@
             "TANGENT": 2,
             "POSITION": 3
           },
-          "indices": 7,
+          "indices": 10,
           "material": 0,
           "targets": [
             {
               "NORMAL": 4,
               "POSITION": 5,
               "TANGENT": 6
+            },
+            {
+              "NORMAL": 7,
+              "POSITION": 8,
+              "TANGENT": 9
             }
           ]
         }
       ],
       "weights": [
+        0.0,
         0.0
       ],
       "name": "Cube"
