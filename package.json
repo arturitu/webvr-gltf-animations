@@ -1,10 +1,10 @@
 {
   "name": "webvr-gltf-animations",
   "version": "0.0.1",
-  "description": "GLtf workflow for bones & moprh animations from Blender to three.js",
+  "description": "glTF workflow for bones & moprh animations from Blender to three.js",
   "repository": {
     "type": "git",
-    "url": "git+https://aparacuellos@bitbucket.org/aparacuellos/webvr-gltf-animations.git"
+    "url": "git+https://github.com/arturitu/webvr-gltf-animations.git"
   },
   "main": "index.js",
   "dependencies": {
@@ -14,8 +14,7 @@
     "three": "0.85.2",
     "tween.js": "16.6.0",
     "webvr-polyfill": "0.9.27",
-    "webvr-ui": "0.9.4",
-    "socket.io": "1.2.0"
+    "webvr-ui": "0.9.4"
   },
   "devDependencies": {
     "babel-preset-es2015": "6.24.1",
