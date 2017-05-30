@@ -1,0 +1,181 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 601,
+      "type": "VEC2",
+      "max": [
+        0.888466,
+        -0.007693
+      ],
+      "min": [
+        0.009458,
+        -0.993622
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 601,
+      "type": "VEC3",
+      "max": [
+        0.999789536,
+        0.995934248,
+        1.0
+      ],
+      "min": [
+        -0.9997934,
+        -0.99992156,
+        -0.9997934
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 601,
+      "type": "VEC4",
+      "max": [
+        0.999998569,
+        0.6454599,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.645460248,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 601,
+      "type": "VEC3",
+      "max": [
+        0.05,
+        0.14996,
+        0.046416
+      ],
+      "min": [
+        -0.05,
+        -0.14996,
+        -0.005713
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 876,
+      "type": "SCALAR",
+      "max": [
+        600
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4808
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4808,
+      "byteLength": 7212
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12020,
+      "byteLength": 9616
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21636,
+      "byteLength": 7212
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 28848,
+      "byteLength": 1752
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "dd-controller.bin",
+      "byteLength": 30600
+    }
+  ],
+  "images": [
+    {
+      "uri": "dd-controller_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "ddcontroller"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6038274,
+          0.6038274,
+          0.6038274,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "ddcontroller_idle"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "name": "dd-controller"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
