@@ -1,7 +1,7 @@
 {
   "name": "webvr-gltf-animations",
   "version": "0.0.1",
-  "description": "glTF workflow for bones & moprh animations from Blender to three.js",
+  "description": "A WebVR experiment by @arturitu &amp; @takahiro to share a URL and talk",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arturitu/webvr-gltf-animations.git"

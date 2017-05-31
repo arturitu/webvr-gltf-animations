@@ -2,49 +2,55 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
-		<title>WebVR demo by Unboring.net</title>
+		<title>share/two/talk - A WebVR experiment by @arturitu &amp; @takahiro to share a URL and talk</title>
 		<!-- Facebook Metas -->
-		<meta property="og:url" content="https://unboring.net/" />
-		<meta property="og:title" content="WebVR demo by Unboring.net"/>
-		<meta property="og:description" content="WebXR avatars demo for Daydream"/>
-		<meta property="og:image" content="https://unboring.net/lab/avatar/images/avatar-mark-carmel.png">
+		<meta property="og:url" content="https://unboring.net/share/two/talk/" />
+		<meta property="og:title" content="share/two/talk"/>
+		<meta property="og:description" content="A WebVR experiment to share a URL and talk"/>
+		<meta property="og:image" content="https://unboring.net/share/two/talk/images/s2t-share.png">
 		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+		<meta name="theme-color" content="#7095a6">
 		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'/>
-		<style>
-			body {
-				width: 100%;
-				height: 100%;
-				background-color: #000;
-				color: #fff;
-				margin: 0px;
-				padding: 0;
-				overflow: hidden;
-			}
-
-			/* Position the button on the bottom of the page. */
-			#ui {
-				position: absolute;
-				bottom: 10px;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				text-align: center;
-				font-family: 'Karla', sans-serif;
-				z-index: 1;
-			}
-
-			a#magic-window {
-				display: block;
-				color: #2e2f42;
-				margin-top: 1em;
-			}
-		</style>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!-- Origin Trial Token, feature = WebVR, origin = https://unboring.net, expires = 2017-06-12 -->
+<meta http-equiv="origin-trial" data-feature="WebVR" data-expires="2017-06-12" content="Avzpps2t2/yk+BbpD010pXHKOnkUxFKUcbTiBiw9A9k01041t4aK+gGxKJ7j37pZ3GLttva7hrV11PcMteIICw8AAABeeyJvcmlnaW4iOiJodHRwczovL3VuYm9yaW5nLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVlIiLCJleHBpcnkiOjE0OTczMTIwMDAsImlzU3ViZG9tYWluIjp0cnVlfQ==">
 </head>
 	<body>
-		<div id="ui">
-			<div id="vr-button"></div>
-			<a id="magic-window" href="#">Try it without a headset</a>
-		</div>
+		<header>
+			<div id="ui">
+				<h3>Just share your room URL to talk</h3>
+				<h1>share/<strong>two</strong>/talk</h1>
+				<div id="html-content">
+					<div id="room">
+						<input id="url" value="talk.unboring.net/9s5t" readonly>
+						<!-- Trigger -->
+						<button class="btn" data-clipboard-target="#url">
+								<img src="../images/clipboard.svg" alt="Copy to clipboard">
+						</button>
+					</div>
+					<div id="alert">Room ---- is empty :(</div>
+				</div>
+				<div id="create-button">
+					<button title="Create your own room">
+						<div>CREATE YOUR OWN ROOM</div>
+					</button>
+				</div>
+				<div id="vr-button"></div>
+				<a id="magic-window" href="#">Try it without a headset</a>
+			</div>
+		</header>
+		<section id="webgl-content">
+		</section>
+		<footer>
+			<div id="authors">
+				A WebVR Experiment by <a href="https://twitter.com/arturitu" target="_blank">@arturitu</a> &amp; <a href="https://twitter.com/takahiro" target="_blank">@takahiro</a>
+			</div>
+		</footer>
 	</body>
+	<script src="js/clipboard.min.js"></script>
+	<script>
+		new Clipboard('.btn');
+	</script>
 	<script src='js/three.js'></script>
 	<script src='js/index.js'></script>
 </html>
