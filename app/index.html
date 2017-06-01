@@ -17,15 +17,16 @@
 </head>
 	<body>
 		<header>
+			<audio id="gum-local" controls autoplay></audio>
 			<div id="ui">
 				<h3>Just share your room URL to talk</h3>
 				<h1>share/<strong>two</strong>/talk</h1>
 				<div id="html-content">
 					<div id="room">
-						<input id="url" value="talk.unboring.net/9s5t" readonly>
+						<input id="url" value="" readonly>
 						<!-- Trigger -->
 						<button class="btn" data-clipboard-target="#url">
-								<img src="../images/clipboard.svg" alt="Copy to clipboard">
+								<img src="images/clipboard.svg" alt="Copy to clipboard">
 						</button>
 					</div>
 					<div id="alert">Room ---- is empty :(</div>
@@ -51,6 +52,9 @@
 	<script>
 		new Clipboard('.btn');
 	</script>
+	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
 	<script src='js/three.js'></script>
+	<script src="js/networks/RemoteSync.js"></script>
+	<script src="js/networks/FirebaseClient2.js"></script>
 	<script src='js/index.js'></script>
 </html>

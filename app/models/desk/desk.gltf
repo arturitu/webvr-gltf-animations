@@ -1,0 +1,175 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 448,
+      "type": "VEC2",
+      "max": [
+        0.990919,
+        -0.019698
+      ],
+      "min": [
+        0.012619,
+        -0.980861
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 448,
+      "type": "VEC3",
+      "max": [
+        0.7075305,
+        0.707529962,
+        1.0
+      ],
+      "min": [
+        -0.7075305,
+        -0.707529962,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 448,
+      "type": "VEC4",
+      "max": [
+        0.999996662,
+        0.999996662,
+        0.0,
+        1.0
+      ],
+      "min": [
+        -0.999996662,
+        -0.9999968,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 448,
+      "type": "VEC3",
+      "max": [
+        0.799135,
+        0.799134,
+        0.036667
+      ],
+      "min": [
+        -0.799134,
+        -0.799135,
+        -0.043333
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 1140,
+      "type": "SCALAR",
+      "max": [
+        447
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3584
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3584,
+      "byteLength": 5376
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8960,
+      "byteLength": 7168
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16128,
+      "byteLength": 5376
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21504,
+      "byteLength": 2280
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "desk.bin",
+      "byteLength": 23784
+    }
+  ],
+  "images": [
+    {
+      "uri": "desk_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Desk"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "desk"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "name": "desk"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

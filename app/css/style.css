@@ -27,6 +27,10 @@ a {
   color: white;
 }
 
+audio{
+  display:none;
+}
+
 body {
   font-family: 'Karla', sans-serif;
   font-size: 14px;
@@ -52,6 +56,7 @@ h3 {
     background-size: 100%;
     margin: 0 auto 5px;
     text-indent: -9999px;
+    display: none;
 }
 
 #html-content{
@@ -59,7 +64,7 @@ h3 {
 }
 
 #room{
-  display: inline-flex;
+  display: none;
 }
 #url{
   height: 40px;
@@ -67,7 +72,7 @@ h3 {
   color: #2f3143;
   border: 0;
   padding: 5px 20px;
-  width:310px;
+  width:330px;
 }
 
 #room .btn{
