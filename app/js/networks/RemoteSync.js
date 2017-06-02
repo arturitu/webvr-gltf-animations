@@ -135,7 +135,6 @@
 		},
 
 		addLocalObject: function ( object, info ) {
-
 			if ( this.localObjectTable[ object.uuid ] !== undefined ) return;
 
 			if ( info === undefined ) info = {};
@@ -146,7 +145,6 @@
 			this.localObjectInfos[ object.uuid ] = info;
 
 			var morphTargetInfluences = [];
-
 			if ( object.morphTargetInfluences !== undefined ) {
 
 				for ( var i = 0, il = object.morphTargetInfluences.length; i < il; i ++ ) {
@@ -162,7 +160,6 @@
 				matrix: [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ],
 				morphTargetInfluences: morphTargetInfluences
 			};
-
 			if ( this.client.connectionNum() > 0 ) this.broadcastObjectAddition( object );
 
 		},
