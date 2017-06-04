@@ -1,0 +1,329 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC2",
+      "max": [
+        0.9556,
+        -0.015673
+      ],
+      "min": [
+        0.098611,
+        -0.977633
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.9999983,
+        0.9946743,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9943747,
+        -0.9868084,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        0.073313,
+        0.012452,
+        -0.000923
+      ],
+      "min": [
+        -0.079017,
+        -0.012411,
+        -0.20973
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        2.0,
+        1.953315,
+        1.95330322
+      ],
+      "min": [
+        -0.8998018,
+        -1.98665309,
+        -0.9918154
+      ],
+      "name": "close"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        0.000229001045,
+        0.00147600006,
+        0.13888
+      ],
+      "min": [
+        0.0,
+        -0.083775,
+        -0.0174969956
+      ],
+      "name": "close"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        0.5336944,
+        1.80119884,
+        1.906455
+      ],
+      "min": [
+        -0.5843921,
+        -1.6848017,
+        -1.54758668
+      ],
+      "name": "close"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        0.86163944,
+        0.440266728,
+        0.8286728
+      ],
+      "min": [
+        -0.564348,
+        -0.8127564,
+        -0.8286729
+      ],
+      "name": "grab"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        0.0003460003,
+        0.0303560048
+      ],
+      "min": [
+        0.0,
+        -0.0525349975,
+        -0.007077992
+      ],
+      "name": "grab"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 662,
+      "type": "VEC3",
+      "max": [
+        0.497661173,
+        0.938131452,
+        0.736192942
+      ],
+      "min": [
+        -0.262610316,
+        -0.908943653,
+        -0.826390445
+      ],
+      "name": "grab"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5123,
+      "count": 1272,
+      "type": "SCALAR",
+      "max": [
+        661
+      ],
+      "min": [
+        0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "glTF Tools for Unity",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5296
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5296,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13240,
+      "byteLength": 10592
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23832,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31776,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39720,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47664,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55608,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 63552,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 71496,
+      "byteLength": 7944
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79440,
+      "byteLength": 2544
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "hand-r-bevel.bin",
+      "byteLength": 81984
+    }
+  ],
+  "images": [
+    {
+      "uri": "hand-r-bevel_baseColor.png"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "TEXCOORD_0": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "POSITION": 3
+          },
+          "indices": 10,
+          "material": 0,
+          "targets": [
+            {
+              "NORMAL": 4,
+              "POSITION": 5,
+              "TANGENT": 6
+            },
+            {
+              "NORMAL": 7,
+              "POSITION": 8,
+              "TANGENT": 9
+            }
+          ]
+        }
+      ],
+      "weights": [
+        0.0,
+        0.0
+      ],
+      "name": "Cube"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9405525,
+          0.419347852,
+          0.00450721,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "hand-uv"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        0.7071068
+      ],
+      "name": "hand-r-bevel"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}

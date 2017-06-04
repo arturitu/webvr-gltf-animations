@@ -494,7 +494,7 @@
 		checkUpdate: function ( object ) {
 
 			var component = this.transferComponentsSync[ object.uuid ];
-
+			// console.log(object);
 			var array = component.matrix;
 			var array2 = object.matrix.elements;
 
