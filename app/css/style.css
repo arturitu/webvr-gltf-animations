@@ -140,6 +140,19 @@ footer {
   text-align: right;
 }
 
+#case{
+  position: absolute;
+  color: white;
+  width: 210px;
+  bottom: 20px;
+  left: 15px;
+}
+
+footer {
+  text-shadow: #2f3143 0.1em 0.05em 0.1em;
+}
+
+
 
 @media (max-width: 700px) {
   h1 {
@@ -173,5 +186,8 @@ footer {
     bottom: 10px;
     left: 50%;
     text-align: center;
+  }
+  #case{
+    display: none;
   }
 }
