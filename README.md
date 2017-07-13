@@ -1,6 +1,6 @@
 # _share/two/talk_
 
-_share/two/talk_ is a multiuser WebRTC WebVR experiment using glTF2.0 for aminated avatars
+_share/two/talk_ is a multiuser WebRTC WebVR experiment using glTF2.0 for animated avatars
 
 * [Read Case Study](http://unboring.net/cases/sharetwotalk/)
 * [Play now!](http://talk.unboring.net)
